@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pedidos_style.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/funciones.js"></script>
+    <link rel="icon" href="../img/logo/Croissant.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2067fe5f8f.js" crossorigin="anonymous"></script>
+    <title>Hecho en casa</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="info_de_la_panaderia">
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61552365612376" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/hechoencasa.panaderia.ok/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="https://wa.me/542983405504/?text=Necesito%20realizar%20una%20consulta" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                <div class="pull_right">
+                    <li><a href="quienes_somos.html">Quiénes somos</a></li> 
+                    <li><a href="donde_nos_encontras.html">Dónde nos encontrás</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="linea"></div>
+        <nav class="navegacion_principal">
+            <div class="enlace1">
+                <a href="../index.html" class="enlaces_nav">Inicio</a>
+            </div>
+            <div class="enlace2">
+                <a href="#" class="sin_enlace">Panaderia</a>
+                <div class="submenu">
+                    <ul class="desplegable">
+                        <li><a href="panes.html" class="enlace_desplegable">Panes</a></li>
+                        <li><a href="budines.html" class="enlace_desplegable">Budines</a></li>
+                        <li><a href="galletitas.html" class="enlace_desplegable">Galletitas</a></li>
+                        <li><a href="facturas.html" class="enlace_desplegable">Facturas</a></li>
+                        <li><a href="tartas.html" class="enlace_desplegable">Tartas</a></li>
+                        <li><a href="pizzas.html" class="enlace_desplegable">Pizzas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="enlace3">
+                <a href="promos.html" class="enlaces_nav">Promos</a>
+            </div>
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo/Hecho_en_casa.ico" class="icono_logo" alt="Logo de la panadería integral Hecho en casa"></a>
+            </div>
+            <div class="enlace4">
+                <a href="pedidos.html" class="enlaces_nav">Pedidos</a>
+            </div>
+            <div class="enlace5">
+                <a href="consejos.html" class="enlaces_nav">Consejos</a>
+            </div>
+            <div class="enlace6">
+                <a href="contacto.html" class="enlaces_nav">Contacto</a>
+            </div>
+        </nav> 
+    </header>  
+    <div class="up">
+        <span class="icon icon-up-open"></span>
+    </div>
+    <section>
+        <h1>Pedidos</h1>
+        <div class="contenedor_pedidos">
+            <form action="#" method="post" name="form_valida_pedido">
+                <div class="items_contenedor">
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Panes</legend>
+                            <div class="pedido_producto">
+                                <label for="pan_5_semillas">Pan de 5 semillas</label>
+                                <input type="number" name="pan_5_semillas" id="pan_5_semillas" value="0" min="0" max="99" autofocus>
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pan_centeno_salvado">Centeno y salvado</label>
+                                <input type="number" name="pan_centeno_salvado" id="pan_centeno_salvado" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pan_salvado_trigo">Salvado y trigo</label>
+                                <input type="number" name="pan_salvado_trigo" id="pan_salvado_trigo" value="0" min="0" max="99">
+                            </div>  
+                            <div class="pedido_producto">
+                                <label for="pan_semillas">Pan de semillas</label>
+                                <input type="number" name="pan_semillas" id="pan_semillas" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pan_integral_avena_lino">Integral con avena y lino</label>
+                                <input type="number" name="pan_integral_avena_lino" id="pan_integral_avena_lino" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">   
+                                <label for="pan_integral_cerveza_negra_datiles">Integral con cerveza negra y dátiles</label>
+                                <input type="number" name="pan_integral_cerveza_negra_datiles" id="pan_integral_cerveza_negra_datiles" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">   
+                                <label for="pan_integral_chia">Integral con chía</label>
+                                <input type="number" name="pan_integral_chia" id="pan_integral_chia" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pan_integral_molde">Integral de molde</label>
+                                <input type="number" name="pan_integral_molde" id="pan_integral_molde" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pan_bollitos_ajo_mozarella">Bollitos con ajo y mozarella</label>
+                                <input type="number" name="pan_bollitos_ajo_mozarella" id="pan_bollitos_ajo_mozarella" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Budines</legend>
+                            <div class="pedido_producto">
+                                <label for="budin_pan_integral">Budín de pan integral</label>
+                                <input type="number" name="budin_pan_integral" id="budin_pan_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_integral_banana">Integral de banana</label>
+                                <input type="number" name="budin_integral_banana" id="budin_integral_banana" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_integral_naranja_chocolate">Integral de naranja y chocolate</label>
+                                <input type="number" name="budin_integral_naranja_chocolate" id="budin_integral_naranja_chocolate" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_integral_limon">Integral de limón</label>
+                                <input type="number" name="budin_integral_limon" id="budin_integral_limon" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_banana_chocolate_avena">Banana y chocolate con avena</label>
+                                <input type="number" name="budin_banana_chocolate_avena" id="budin_banana_chocolate_avena" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_ingles_integral">Budín inglés integral</label>
+                                <input type="number" name="budin_ingles_integral" id="budin_ingles_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_integral_remolacha_naranja">Integral de remolacha y naranja</label>
+                                <input type="number" name="budin_integral_remolacha_naranja" id="budin_integral_remolacha_naranja" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_integral_zanahoria_nueces">Integral de zanahoria y nueces</label>
+                                <input type="number" name="budin_integral_zanahoria_nueces" id="budin_integral_zanahoria_nueces" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="budin_pan_dulce_integral">Pan dulce integral</label>
+                                <input type="number" name="budin_pan_dulce_integral" id="budin_pan_dulce_integral" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Galletitas</legend>
+                            <div class="pedido_producto">
+                                <label for="galletitas_avena_chocolate">Avena y chocolate</label>
+                                <input type="number" name="galletitas_avena_chocolate" id="galletitas_avena_chocolate" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_avena_coco">Avena y coco</label>
+                                <input type="number" name="galletitas_avena_coco" id="galletitas_avena_coco" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_avena_pasas_uva">Avena y pasas de uva</label>
+                                <input type="number" name="galletitas_avena_pasas_uva" id="galletitas_avena_pasas_uva" value="0" min="0" max="99">
+                            </div>    
+                            <div class="pedido_producto">
+                                <label for="galletitas_avena_chocolate_mandarina">Avena, chocolate y mandarina</label>
+                                <input type="number" name="galletitas_avena_chocolate_mandarina" id="galletitas_avena_chocolate_mandarina" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_integrales_jengibre">Integrales con jengibre</label>
+                                <input type="number" name="galletitas_integrales_jengibre" id="galletitas_integrales_jengibre" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_integrales_lino">Integrales con lino</label>
+                                <input type="number" name="galletitas_integrales_lino" id="galletitas_integrales_lino" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_avena_manzana_pasas_uva">Avena, manzana y pasas de uva</label>
+                                <input type="number" name="galletitas_avena_manzana_pasas_uva" id="galletitas_avena_manzana_pasas_uva" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="galletitas_integrales_vainilla">Pepas de vainilla</label>
+                                <input type="number" name="galletitas_integrales_vainilla" id="galletitas_integrales_vainilla" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Facturas</legend>
+                            <div class="pedido_producto">
+                                <label for="facturas_medialunas_integrales">Medialunas integrales</label>
+                                <input type="number" name="facturas_medialunas_integrales" id="facturas_medialunas_integrales" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_medialunas_integrales_miel">Medialunas integrales de miel</label>
+                                <input type="number" name="facturas_medialunas_integrales_miel" id="facturas_medialunas_integrales_miel" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_harina_integral">Facturas de harina integral</label>
+                                <input type="number" name="facturas_harina_integral" id="facturas_harina_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_espirales">Espirales</label>
+                                <input type="number" name="facturas_espirales" id="facturas_espirales" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_challah_integral">Challah integral</label>
+                                <input type="number" name="facturas_challah_integral" id="facturas_challah_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_brioche_integral">Brioche integral</label>
+                                <input type="number" name="facturas_brioche_integral" id="facturas_brioche_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_muffins_integrales_zanahoria">Muffins integrales de zanahoria</label>
+                                <input type="number" name="facturas_muffins_integrales_zanahoria" id="facturas_muffins_integrales_zanahoria" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_muffins_integrales_chocolate">Muffins integrales de chocolate</label>
+                                <input type="number" name="facturas_muffins_integrales_chocolate" id="facturas_muffins_integrales_chocolate" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_muffins_frutillas">Muffins de frutillas</label>
+                                <input type="number" name="facturas_muffins_frutillas" id="facturas_muffins_frutillas" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="facturas_donuts_integrales">Donuts integrales</label>
+                                <input type="number" name="facturas_donuts_integrales" id="facturas_donuts_integrales" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Tartas</legend>
+                            <div class="pedido_producto">
+                                <label for="tartas_integral_caprese">Integral caprese</label>
+                                <input type="number" name="tartas_integral_caprese" id="tartas_integral_caprese" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_integral">Tarta integral</label>
+                                <input type="number" name="tartas_integral" id="tartas_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_brocoli_choclo">Brócoli y choclo</label>
+                                <input type="number" name="tartas_brocoli_choclo" id="tartas_brocoli_choclo" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_choclo_queso">Choclo y queso</label>
+                                <input type="number" name="tartas_choclo_queso" id="tartas_choclo_queso" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_integral_colorida">Integral colorida</label>
+                                <input type="number" name="tartas_integral_colorida" id="tartas_integral_colorida" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_integral_zapallitos">Integral de zapallitos</label>
+                                <input type="number" name="tartas_integral_zapallitos" id="tartas_integral_zapallitos" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_integral_jamon_queso">Integral de jamón y queso</label>
+                                <input type="number" name="tartas_integral_jamon_queso" id="tartas_integral_jamon_queso" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_queso_cebolla">Queso y cebolla</label>
+                                <input type="number" name="tartas_queso_cebolla" id="tartas_queso_cebolla" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="tartas_frutos_rojos">Frutos rojos</label>
+                                <input type="number" name="tartas_frutos_rojos" id="tartas_frutos_rojos" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor">
+                        <fieldset>
+                            <legend>Pizzas</legend>
+                            <div class="pedido_producto">
+                                <label for="pizza_fugazzetta_integral">Fugazzetta integral</label>
+                                <input type="number" name="pizza_fugazzetta_integral" id="pizza_fugazzetta_integral" value="0"  min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral">Pizza integral</label>
+                                <input type="number" name="pizza_integral" id="pizza_integral" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral_jamon_queso">Integral de jamón y queso</label>
+                                <input type="number" name="pizza_integral_jamon_queso" id="pizza_integral_jamon_queso" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_base_zanahoria">Con base de zanahoria</label>
+                                <input type="number" name="pizza_base_zanahoria" id="pizza_base_zanahoria" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral_vegana">Integral vegana</label>
+                                <input type="number" name="pizza_integral_vegana" id="pizza_integral_vegana" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral_base_remolacha">Integral con base de remolacha</label>
+                                <input type="number" name="pizza_integral_base_remolacha" id="pizza_integral_base_remolacha" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral_rucula_tomates">Integral rúcula y tomates</label>
+                                <input type="number" name="pizza_integral_rucula_tomates" id="pizza_integral_rucula_tomates" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_integral_napolitana">Integral napolitana</label>
+                                <input type="number" name="pizza_integral_napolitana" id="pizza_integral_napolitana" value="0" min="0" max="99">
+                            </div>
+                            <div class="pedido_producto">
+                                <label for="pizza_prepizza_integral">Prepizza integral</label>
+                                <input type="number" name="pizza_prepizza_integral" id="pizza_prepizza_integral" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor_large">
+                        <fieldset>
+                            <legend>Promos</legend>
+                            <div class="pedido_promo">
+                                <label for="promo_facturas">Facturas</label>
+                                <input type="number" name="promo_facturas" id="promo_facturas" value="0" min="0" max="99">
+                                <label for="promo_tartaletas">Tartaletas</label>
+                                <input type="number" name="promo_tartaletas" id="promo_tartaletas" value="0" min="0" max="99">
+                                <label for="promo_canapes">Canapés</label>
+                                <input type="number" name="promo_canapes" id="promo_canapes" value="0" min="0" max="99">
+                                <label for="promo_pizzetas">Pizzetas</label>
+                                <input type="number" name="promo_pizzetas" id="promo_pizzetas" value="0" min="0" max="99">
+                                <label for="promo_salado">Salado</label>
+                                <input type="number" name="promo_salado" id="promo_salado" value="0" min="0" max="99">
+                                <label for="promo_dulce">Dulce</label>
+                                <input type="number" name="promo_dulce" id="promo_dulce" value="0" min="0" max="99">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor_despacho">
+                        <fieldset>
+                            <legend>Despacho del pedido</legend>
+                            <div class="despacho">
+                                <label for="retira_local">Retira del local</label>
+                                <input type="radio" name="forma_despacho" id="retira_local" checked>
+                                <label for="delivery">Delivery</label>
+                                <input type="radio" name="forma_despacho" id="delivery">
+                                <label for="fecha_despacho_pedido">El pedido deberá entregarse...</label>
+                                <input name="fecha_despacho_pedido" type="date" id="fecha_despacho_pedido" required>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="card_contenedor_contacto">
+                        <fieldset>
+                            <legend>Datos de contacto</legend>
+                            <div class="pedido_contacto">
+                                <label for="nombre">Nombre</label>
+                                <input name="nombre" type="text" placeholder="Nombre..." maxlength="50" required>
+                            </div>
+                            <div class="pedido_contacto">
+                                <label for="email">Email</label>
+                                <input name="email" type="email" placeholder="Email..." required>
+                            </div>
+                            <div class="pedido_contacto">
+                                <label for="no_contacto">Teléfono</label>
+                                <input name="no_contacto" type="tel" placeholder="Sin espacios ni guiones...">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div id="envio_formulario">
+                        <input type="submit" value="Enviar" onclick="valida_enviar()" class="enviar"> 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="pie">
+        <p class="copyright">Derechos reservados @2023</p> 
+    </footer> 
+</body>
+</html>
