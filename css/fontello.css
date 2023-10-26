@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'fontello';
+  src: url('../font/fontello.eot');
   src: url('../font/fontello.eot?47387720');
   src: url('../font/fontello.eot?47387720#iefix') format('embedded-opentype'),
        url('../font/fontello.woff2?47387720') format('woff2'),
